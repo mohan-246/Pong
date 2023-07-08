@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body class="overflow-hidden">
+    <section class="h-screen w-screen bg-gray-800">
+        <p id="score" class="text-white font-bold text-xl ">Score: 0</p>
+        <div class="notification-box flex flex-col items-center justify-center fixed w-full z-50 p-3">
+            <!-- Notification container -->
+        </div>
+        <div id="pong" class="h-3 w-3 bg-white rounded-full absolute">
+
+        </div>
+        <div id="bat" class="w-32 h-5 bg-white bottom-0 absolute ">
+
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
